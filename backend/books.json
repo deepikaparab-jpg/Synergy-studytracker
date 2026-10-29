@@ -1,0 +1,380 @@
+[
+ {
+  "id": "os",
+  "title": "Operating Systems",
+  "start": 26,
+  "end": 762,
+  "chapters": [
+   {
+    "no": 1,
+    "title": "Computer System Overview",
+    "first": 26,
+    "last": 68
+   },
+   {
+    "no": 2,
+    "title": "Operating System Overview",
+    "first": 69,
+    "last": 125
+   },
+   {
+    "no": 3,
+    "title": "Process Description & Control",
+    "first": 126,
+    "last": 178
+   },
+   {
+    "no": 4,
+    "title": "Threads, SMP & Microkernels",
+    "first": 179,
+    "last": 223
+   },
+   {
+    "no": 5,
+    "title": "Concurrency: Mutual Exclusion",
+    "first": 224,
+    "last": 280
+   },
+   {
+    "no": 6,
+    "title": "Concurrency: Deadlock & Starvation",
+    "first": 281,
+    "last": 329
+   },
+   {
+    "no": 7,
+    "title": "Memory Management",
+    "first": 330,
+    "last": 363
+   },
+   {
+    "no": 8,
+    "title": "Virtual Memory",
+    "first": 364,
+    "last": 423
+   },
+   {
+    "no": 9,
+    "title": "Uniprocessor Scheduling",
+    "first": 424,
+    "last": 470
+   },
+   {
+    "no": 10,
+    "title": "Multiprocessor & Real-Time Scheduling",
+    "first": 471,
+    "last": 513
+   },
+   {
+    "no": 11,
+    "title": "I/O Management & Disk Scheduling",
+    "first": 514,
+    "last": 539
+   },
+   {
+    "no": 12,
+    "title": "File Management",
+    "first": 540,
+    "last": 620
+   },
+   {
+    "no": 13,
+    "title": "Embedded Operating Systems",
+    "first": 621,
+    "last": 653
+   },
+   {
+    "no": 14,
+    "title": "Computer Security Threats",
+    "first": 654,
+    "last": 685
+   },
+   {
+    "no": 15,
+    "title": "Computer Security Techniques",
+    "first": 686,
+    "last": 728
+   },
+   {
+    "no": 16,
+    "title": "Distributed Processing & Client/Server",
+    "first": 729,
+    "last": 762
+   }
+  ]
+ },
+ {
+  "id": "dbms",
+  "title": "Database Systems",
+  "start": 34,
+  "end": 1193,
+  "chapters": [
+   {
+    "no": 1,
+    "title": "Databases & Database Users",
+    "first": 34,
+    "last": 61
+   },
+   {
+    "no": 2,
+    "title": "DB System Concepts & Architecture",
+    "first": 62,
+    "last": 89
+   },
+   {
+    "no": 3,
+    "title": "Data Modeling Using ER Model",
+    "first": 90,
+    "last": 137
+   },
+   {
+    "no": 4,
+    "title": "Enhanced ER (EER) Model",
+    "first": 138,
+    "last": 179
+   },
+   {
+    "no": 5,
+    "title": "Relational Data Model & Constraints",
+    "first": 180,
+    "last": 207
+   },
+   {
+    "no": 6,
+    "title": "Basic SQL",
+    "first": 208,
+    "last": 237
+   },
+   {
+    "no": 7,
+    "title": "More SQL: Complex Queries, Triggers",
+    "first": 238,
+    "last": 269
+   },
+   {
+    "no": 8,
+    "title": "Relational Algebra & Calculus",
+    "first": 270,
+    "last": 319
+   },
+   {
+    "no": 9,
+    "title": "Relational DB Design by ER/EER Mapping",
+    "first": 320,
+    "last": 339
+   },
+   {
+    "no": 10,
+    "title": "SQL Programming Techniques",
+    "first": 340,
+    "last": 373
+   },
+   {
+    "no": 11,
+    "title": "Web DB Programming Using PHP",
+    "first": 374,
+    "last": 393
+   },
+   {
+    "no": 12,
+    "title": "Object & Object-Relational DBs",
+    "first": 394,
+    "last": 455
+   },
+   {
+    "no": 13,
+    "title": "XML",
+    "first": 456,
+    "last": 489
+   },
+   {
+    "no": 14,
+    "title": "Functional Dependencies & Normalization",
+    "first": 490,
+    "last": 533
+   },
+   {
+    "no": 15,
+    "title": "Relational Design Algorithms",
+    "first": 534,
+    "last": 571
+   },
+   {
+    "no": 16,
+    "title": "Disk Storage & File Structures",
+    "first": 572,
+    "last": 631
+   },
+   {
+    "no": 17,
+    "title": "Indexing Structures",
+    "first": 632,
+    "last": 685
+   },
+   {
+    "no": 18,
+    "title": "Query Processing Strategies",
+    "first": 686,
+    "last": 721
+   },
+   {
+    "no": 19,
+    "title": "Query Optimization",
+    "first": 722,
+    "last": 775
+   },
+   {
+    "no": 20,
+    "title": "Transaction Processing",
+    "first": 776,
+    "last": 811
+   },
+   {
+    "no": 21,
+    "title": "Concurrency Control",
+    "first": 812,
+    "last": 843
+   },
+   {
+    "no": 22,
+    "title": "Database Recovery",
+    "first": 844,
+    "last": 871
+   },
+   {
+    "no": 23,
+    "title": "Distributed Databases",
+    "first": 872,
+    "last": 913
+   },
+   {
+    "no": 24,
+    "title": "NOSQL & Big Data Storage",
+    "first": 914,
+    "last": 941
+   },
+   {
+    "no": 25,
+    "title": "Big Data: MapReduce & Hadoop",
+    "first": 942,
+    "last": 991
+   },
+   {
+    "no": 26,
+    "title": "Enhanced Data Models",
+    "first": 992,
+    "last": 1051
+   },
+   {
+    "no": 27,
+    "title": "Information Retrieval & Web Search",
+    "first": 1052,
+    "last": 1099
+   },
+   {
+    "no": 28,
+    "title": "Data Mining",
+    "first": 1100,
+    "last": 1131
+   },
+   {
+    "no": 29,
+    "title": "Data Warehousing & OLAP",
+    "first": 1132,
+    "last": 1151
+   },
+   {
+    "no": 30,
+    "title": "Database Security",
+    "first": 1152,
+    "last": 1193
+   }
+  ]
+ },
+ {
+  "id": "nsm",
+  "title": "Numerical & Statistical Methods",
+  "start": 7,
+  "end": 240,
+  "chapters": [
+   {
+    "no": 1,
+    "title": "Chapter 1",
+    "first": 7,
+    "last": 13
+   },
+   {
+    "no": 2,
+    "title": "Chapter 2",
+    "first": 14,
+    "last": 32
+   },
+   {
+    "no": 3,
+    "title": "Chapter 3",
+    "first": 33,
+    "last": 53
+   },
+   {
+    "no": 4,
+    "title": "Chapter 4",
+    "first": 54,
+    "last": 69
+   },
+   {
+    "no": 5,
+    "title": "Chapter 5",
+    "first": 70,
+    "last": 82
+   },
+   {
+    "no": 6,
+    "title": "Chapter 6",
+    "first": 83,
+    "last": 94
+   },
+   {
+    "no": 7,
+    "title": "Chapter 7",
+    "first": 95,
+    "last": 105
+   },
+   {
+    "no": 8,
+    "title": "Chapter 8",
+    "first": 106,
+    "last": 117
+   },
+   {
+    "no": 9,
+    "title": "Chapter 9",
+    "first": 118,
+    "last": 145
+   },
+   {
+    "no": 10,
+    "title": "Chapter 10",
+    "first": 146,
+    "last": 167
+   },
+   {
+    "no": 11,
+    "title": "Chapter 11",
+    "first": 168,
+    "last": 193
+   },
+   {
+    "no": 12,
+    "title": "Chapter 12",
+    "first": 194,
+    "last": 215
+   },
+   {
+    "no": 13,
+    "title": "Chapter 13",
+    "first": 216,
+    "last": 240
+   }
+  ]
+ }
+]

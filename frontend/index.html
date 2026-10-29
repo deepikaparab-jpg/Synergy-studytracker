@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Synergy Reader</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <button class="g ib" id="home" title="My shelf" aria-label="My shelf">⌂</button><h1 id="ttl">Synergy</h1>
+  <span id="stc" class="chip">★ 0</span>
+  <button class="g ib" id="add" title="Find and add a book" aria-label="Find a book">🔍</button>
+  <button class="g ib" id="menu" title="Menu" aria-label="Menu">☰</button>
+</header>
+
+<main id="lib"><div class="box sum" id="sum"></div><div class="box pad" id="stats" style="margin-top:18px"></div><div class="grid" id="cards"></div></main>
+<section id="map" hidden></section>
+<section id="hub" hidden></section>
+
+<section id="reader" hidden data-t="pdf">
+  <div class="rbar">
+    <button class="g ib" id="back" title="Back to map" aria-label="Back to map">‹</button>
+    <label class="btn">Open PDF<input id="file" type="file" accept="application/pdf" hidden></label>
+    <span id="fname" class="mut"></span>
+    <span style="flex:1"></span>
+    <span class="seg"><button id="sPdf">PDF</button><button class="g" id="sNotes">Notes</button></span>
+  </div>
+  <div class="panels">
+    <div class="panel box" id="lp">
+      <div class="ph"><b id="chn"></b><span><button class="g ib" id="ed" title="Highlight, underline, draw" aria-label="Edit">✎</button> <button class="g ib" id="sm" title="Chapter summary" aria-label="Summary">📄</button></span></div>
+      <div id="tools" hidden>
+        <button class="on" data-t="h">🖍 Highlight</button><button class="g" data-t="u">U̲ Underline</button><button class="g" data-t="p">✏️ Pen</button>
+        <span class="sw on" data-c="#ffe14d" style="background:#ffe14d"></span><span class="sw" data-c="#7ee081" style="background:#7ee081"></span><span class="sw" data-c="#ff7eb6" style="background:#ff7eb6"></span><span class="sw" data-c="#4aa8ff" style="background:#4aa8ff"></span>
+        <button class="g" id="aund" title="Undo">↶</button><button class="g" id="aclr" title="Clear this page">🗑</button>
+      </div>
+      <div id="sumbox" hidden></div>
+      <div class="pbody" id="pv"></div>
+      <div class="pf"><button class="g ib" id="prev" aria-label="Previous page">◀</button><span id="cnt"></span><button class="g ib" id="next" aria-label="Next page">▶</button></div>
+    </div>
+    <div class="panel box" id="np">
+      <div class="ph"><b>Notes</b><span><button class="g ib" id="shr" title="Share notes" aria-label="Share">↥</button> <button class="g ib" id="dl" title="Download notes" aria-label="Download">⤓</button></span></div>
+      <div class="nl" id="nlr"></div>
+      <div class="nbar"><button class="g ib" id="plus" title="Add image or file" aria-label="Add">＋</button><input id="nin" placeholder="Type note or question…" autocomplete="off"><button class="ok ai" id="nai" title="Ask AI" aria-label="Ask AI"></button></div>
+      <input type="file" id="nfile" accept="image/*,.txt,text/plain" hidden>
+    </div>
+  </div>
+</section>
+
+<aside id="drawer">
+  <div class="dh"><h2>Menu</h2><button class="g ib" id="dx" aria-label="Close menu">✕</button></div>
+  <button class="g rw" id="mshelf"><span>📚 My shelf</span><span id="arr">▾</span></button><div id="mbooks" hidden></div>
+  <button class="g rw" id="mtheme"><span>🌓 Theme</span><span id="tv"></span></button>
+  <div class="set" style="margin:6px 0">Colour <span id="pals"><button class="g ib" data-p="" title="Candy pink" aria-label="Pink theme">🌸</button><button class="g ib" data-p="blue" title="Ocean blue" aria-label="Blue theme">🌊</button><button class="g ib" data-p="green" title="Mint green" aria-label="Green theme">🌿</button></span></div>
+  <button class="g rw" id="mav"><span>Avatar</span><span id="mavi"></span></button>
+  <div class="box pad" style="margin-top:14px"><b>🎯 Daily target</b><div class="set" style="margin:8px 0"><input id="ppd" type="range" min="3" max="60" step="1"><b><span id="ppdv"></span> pages</b></div><div id="ppdc" class="bubble" style="font-size:15px"></div><div id="ppdf" class="mut" style="margin-top:8px;font-size:15px"></div></div>
+</aside>
+<div id="onb"></div><div id="ctx" class="box" hidden></div><div id="toast" class="box" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
